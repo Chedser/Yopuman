@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/chat_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chat_lbl"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"></TextView>
+
+    <TableLayout
+        android:id="@+id/buttons_blk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat_lbl">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/poem_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/poem_lbl"
+                android:background="@drawable/spinner_item_gradient"/>
+
+            <Button
+                android:id="@+id/command_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/command_lbl"
+                android:background="@drawable/spinner_item_gradient"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/list_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttons_blk"
+        android:padding="10dp">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:id="@+id/bottom_blk">
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="-5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_style"
+            android:ems="17"
+            android:maxHeight="100dp"
+            android:maxLines="100"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textCursorDrawable="@drawable/color_cursor">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/send_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/spinner_item_gradient"
+            android:layout_gravity="bottom|right"
+            android:text="@string/send_lbl"
+            android:layout_marginBottom="0dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Yopuman</string>
+    <string name="poem_lbl"><b>Стих</b></string>
+    <string name="pianka_lbl"><b>Пьянка</b></string>
+    <string name="zs_lbl"><b>ЗС</b></string>
+    <string name="bv_lbl"><b>5БВ</b></string>
+    <string name="kbd_lbl"><b>КБД</b></string>
+    <string name="full_lbl"><b>Full</b></string>
+    <string name="chat_lbl"><b>ЧАТ</b></string>
+    <string name="save_lbl"><b>Сохранить</b></string>
+    <string name="arhiv_lbl"><b>Архив</b></string>
+    <string name="delete_lbl"><b>Удалить</b></string>
+    <string name="send_lbl"><b>Go</b></string>
+    <string name="command_lbl"><b>Команды</b></string>
+    <string name="close_dialog_lbl"><b>Правильно!</b></string>
+    <string name="exit_lbl"><b>Х</b></string>
+    <string name="commands_lbl"><b>
+                история\n
+                инфа ВАШ ТЕКСТ\n
+                яндекс ВАШ ТЕКСТ\n
+                дзен ВАШ ТЕКСТ\n
+                гугл ВАШ ТЕКСТ\n
+                переведи ВАШ ТЕКСТ\n
+                вики ВАШ ТЕКСТ\n
+                клип ВАШ ТЕКСТ\n
+                видео ВАШ ТЕКСТ\n
+                как ВАШ ТЕКСТ\n
+                где ВАШ ТЕКСТ\n
+                куда ВАШ ТЕКСТ\n
+                когда ВАШ ТЕКСТ\n
+                что такое ВАШ ТЕКСТ\n
+                что делать ВАШ ТЕКСТ\n
+                выбери ВАША ФРАЗА1 или ВАША ФРАЗА2\n
+                кто ВАША ФРАЗА\n
+                кто круче ЧЕЛОВЕК1 или ЧЕЛОВЕК2\n
+                что лучше ВАШ ТЕКСТ1 или ВАШ ТЕКСТ2\n
+                нахуя ВАШ ТЕКСТ\n</b></string>
+
+</resources>
