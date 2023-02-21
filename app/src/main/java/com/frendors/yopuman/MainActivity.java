@@ -55,8 +55,8 @@ SharedPreferences prefs;
 
 static boolean isSaved;
 
-    public static final String APP_PREFERENCES_LASTPOEM = "last_poem"; // имя кота
-    public static final String APP_PREFERENCES_ISSAVED = "isSaved"; // возраст кота
+    public static final String APP_PREFERENCES_LASTPOEM = "last_poem"; 
+    public static final String APP_PREFERENCES_ISSAVED = "isSaved"; 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
